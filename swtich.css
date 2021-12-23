@@ -11,7 +11,24 @@ h1 {
     display: none;
 }
 
-.container {
+#box1 {
+    height: 20vh;
+    width: 25%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+}
+
+
+/*.container {
     border: 2px dotted yellow;
     height: 33vh;
+}
+
+ 
+#box1, #box2, #box3 {
+    height: 20vh;
+    width: 20%;
+    border: 2px dotted yellow;
+    background-color: violet;
 }
