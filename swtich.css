@@ -1,1 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 
+header {
+    background-color: gray;
+    padding: 30px;
+}
+
+h1 {
+    display: none;
+}
+
+.container {
+    border: 2px dotted yellow;
+    height: 33vh;
+}
