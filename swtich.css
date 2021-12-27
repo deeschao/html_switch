@@ -12,37 +12,139 @@ h1 {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: center;
+    flex-wrap: wrap;
     border: 2px dotted yellow;
-    height: 33vh;
+    height: 60vh;
+    padding: 0;
+    border-bottom: 2px dotted red;
 }
 
 #box1 {
-    height: 15vh;
-    width: 25%;
-    border: 2px dotted yellow;
-    background-color: beige;
-    margin-top: 2%;
-    margin-left: 1%;
+        display: flex;
+        height: 10vh;
+        width: 25%;
+        border: 2px dotted yellow;
+        background-color: beige;
+        margin-top: 2%;
+        margin-left: 1%;
+        padding: 35px;
 }
 
 #box2 {
-    height: 15vh;
+    display: flex;
+    height: 10vh;
     width: 25%;
     border: 2px dotted yellow;
     background-color: beige;
     margin-top: 2%;
     margin-left: 1%;
+    padding: 35px;
 }
 
 #box3 {
-    height: 15vh;
+    display: flex;
+    height: 10vh;
     width: 25%;
     border: 2px dotted yellow;
     background-color: beige;
     margin-top: 2%;
     margin-left: 1%;
+    padding: 35px;
 }
- 
+
+#box4 {
+    display: flex;
+    height: 48vh;
+    width: 25%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+#box5 {
+    display: flex;
+    height: 10vh;
+    width: 25%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+#box6 {
+    display: flex;
+    height: 10vh;
+    width: 25%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+#box7 {
+    display: flex;
+    height: 10vh;
+    width: 25%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+.container-L {
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.container-R {
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+}
+
+#sq-1 {
+    display: flex;
+    height: 10vh;
+    width: 40%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+#sq-2 {
+    display: flex;
+    height: 10vh;
+    width: 40%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
+
+#sq-3 {
+    display: flex;
+    height: 10vh;
+    width: 81%;
+    border: 2px dotted yellow;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 35px;
+}
 /*#box1, #box2, #box3 {
     height: 20vh;
     width: 20%;
